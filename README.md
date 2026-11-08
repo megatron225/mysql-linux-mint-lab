@@ -133,3 +133,9 @@ LIMIT 10;
 ```
 
 This helped me practice selecting specific columns and limiting query results.
+
+### Query Results
+
+This screenshot shows the tables in the `world` database, the country count, and the results of my first query.
+
+![MySQL world database query results](world-database-queties.png)
