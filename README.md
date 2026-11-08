@@ -1,4 +1,7 @@
 # MySQL and SQL Portfolio
+
+<img src="mysql-logo.png" alt="MySQL logo" width="150">
+
 A hands-on learning project documenting MySQL setup and SQL practice on Linux Mint.
 
 
