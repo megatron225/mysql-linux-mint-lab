@@ -138,7 +138,7 @@ This helped me practice selecting specific columns and limiting query results.
 
 This screenshot shows the tables in the `world` database, the country count, and the results of my first query.
 
-![MySQL world database query results](world-database-queties.png)
+![MySQL world database query results](world-database-queries.png)
 
 ## Skills Practiced
 
