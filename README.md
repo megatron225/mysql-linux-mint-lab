@@ -28,3 +28,50 @@ The project builds on concepts I am learning in my database coursework and provi
 ## Project Status
 
 **In progress:** MySQL is running, and I have imported and queried the `world` sample database. I plan to continue adding queries, examples, and documentation as I learn.
+
+## Verify MySQL
+
+I used the following commands to confirm that MySQL was installed and the server was running.
+
+### Check the MySQL version
+
+```bash
+mysql --version
+```
+
+This displayed MySQL version **8.0.46** in my environment.
+
+### Check the MySQL service
+
+```bash
+systemctl status mysql
+```
+
+The service status showed **active (running)** and **enabled**.
+
+### Connect to MySQL
+
+```bash
+sudo mysql
+```
+
+This opened the MySQL command-line monitor.
+
+### Verify the server version and list databases
+
+At the `mysql>` prompt, I ran:
+
+```sql
+SELECT VERSION();
+SHOW DATABASES;
+```
+
+The output displayed the server version and the default databases available at the time.
+
+### Exit MySQL
+
+```sql
+EXIT;
+```
+
+This returned me to the Linux terminal.
