@@ -75,3 +75,61 @@ EXIT;
 ```
 
 This returned me to the Linux terminal.
+
+## Import the World Sample Database
+
+To practice SQL locally, I downloaded MySQL's `world` sample database and extracted the SQL file.
+
+### Download and extract the database
+
+```bash
+mkdir -p ~/SIS230/datasets
+cd ~/SIS230/datasets
+wget https://downloads.mysql.com/docs/world-db.zip
+unzip world-db.zip
+```
+
+The extracted file was located at `world-db/world.sql`.
+
+### Import the database
+
+```bash
+sudo mysql < ~/SIS230/datasets/world-db/world.sql
+```
+
+I then opened the MySQL command-line monitor:
+
+```bash
+sudo mysql
+```
+
+### Explore the database
+
+At the `mysql>` prompt, I selected the database and listed its tables:
+
+```sql
+USE world;
+SHOW TABLES;
+```
+
+The database contained three tables: `city`, `country`, and `countrylanguage`.
+
+### Run the first queries
+
+I checked the number of rows in the `country` table:
+
+```sql
+SELECT COUNT(*) FROM country;
+```
+
+The result was **239 rows**.
+
+I then displayed the name, continent, and population for ten countries:
+
+```sql
+SELECT Name, Continent, Population
+FROM country
+LIMIT 10;
+```
+
+This helped me practice selecting specific columns and limiting query results.
