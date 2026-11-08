@@ -1,4 +1,4 @@
-# MySQL on Linux Mint Lab
+# MySQL and SQL Portfolio
 A hands-on learning project documenting MySQL setup and SQL practice on Linux Mint.
 
 
