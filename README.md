@@ -148,3 +148,10 @@ This screenshot shows the tables in the `world` database, the country count, and
 - Exploring database tables and writing basic SQL queries.
 - Documenting a technical project with GitHub.
   
+## Future Improvements
+
+- Practice filtering and sorting query results with `WHERE` and `ORDER BY`.
+- Explore relationships between the `world` database tables using `JOIN`.
+- Create a separate practice database for experimenting with tables and data.
+- Practice inserting, updating, and deleting records locally.
+- Add more screenshots and document what I learn.
