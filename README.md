@@ -155,3 +155,8 @@ This screenshot shows the tables in the `world` database, the country count, and
 - Create a separate practice database for experimenting with tables and data.
 - Practice inserting, updating, and deleting records locally.
 - Add more screenshots and document what I learn.
+
+## References
+
+- [MySQL documentation: World sample database](https://dev.mysql.com/doc/world-setup/en/)
+- [MySQL documentation](https://dev.mysql.com/doc/)
