@@ -139,3 +139,12 @@ This helped me practice selecting specific columns and limiting query results.
 This screenshot shows the tables in the `world` database, the country count, and the results of my first query.
 
 ![MySQL world database query results](world-database-queties.png)
+
+## Skills Practiced
+
+- Verifying and managing a MySQL service on Linux.
+- Using the Linux terminal and MySQL command-line client.
+- Downloading, extracting, and importing a sample database.
+- Exploring database tables and writing basic SQL queries.
+- Documenting a technical project with GitHub.
+  
